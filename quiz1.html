@@ -3,9 +3,9 @@
   <title>My Document</title>
   <script type="text/javascript">
     function change() {
-      var header = document.getElementsById("H1");
+      var header = document.getElementsById("hid123");
       header.innerHTML = "CSIE@CGU";
-      var para = document.getElementsById("P");
+      var para = document.getElementsById("pid123");
       para.innerHTML = "怎麼那麼棒！！.";
     }
   </script>
@@ -13,8 +13,8 @@
   <body>
     <input type="button" value="Change this document."
            onclick="change()">
-    <h1>CGU</h1>
-    <p>好棒棒</p>
+    <h1 id="hid123">CGU</h1>
+    <p id="pid123">好棒棒</p>
   </body>
   </head>
 </html>quiz#1
